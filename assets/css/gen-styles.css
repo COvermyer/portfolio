@@ -1,0 +1,31 @@
+:root {
+    --co-background-color: #708090;
+    --co-card-background: rgba(201, 205, 212, 0.7);
+    --co-card-background-hover: rgba(201, 205, 212, 0.9);
+}
+
+body {
+    background-color: var(--co-background-color);
+}
+
+.prj-card {
+    background-color: var(--co-card-background);  
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.5s ease-out 100ms;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+}
+
+.prj-card:hover {
+    background-color: var(--co-card-background-hover);
+}
+
+.prj-card img {
+    object-fit: contain;
+}
+
+.prj-card-anchor {
+    text-decoration: none;
+    color: black;
+}
