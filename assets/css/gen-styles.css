@@ -21,9 +21,9 @@ body {
     background-color: var(--co-card-background-hover);
 }
 
-.prj-card img {
+/* .prj-card img {
     object-fit: contain;
-}
+} */
 
 .prj-card-anchor {
     text-decoration: none;
